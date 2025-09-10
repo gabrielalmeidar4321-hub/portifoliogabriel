@@ -12,11 +12,11 @@ const projects = [
     link: 'https://example.com'
   },
   {
-    title: 'Sensor de Presença com Ultrassônico e Buzzer',
+    title: 'Sistema CRUD - APP Inventor',
     description:
-      'Este circuito utiliza o módulo HC-SR04, um sensor ultrassônico capaz de medir distâncias a partir do tempo de resposta de ondas sonoras, e um buzzer que emite um alerta sonoro quando um objeto é detectado dentro de uma distância configurada no código do Arduino. O microcontrolador processa o tempo de ida e volta do pulso sonoro, calcula a distância e, caso seja menor que o limite estabelecido, aciona o alarme.\n\nAplicação: Muito utilizado em sistemas de segurança (alarmar presença em um ambiente restrito), tecnologia automotiva (sensores de estacionamento), robótica (desvio de obstáculos em robôs móveis) e até mesmo em automação residencial (ativação de luzes ou travas automáticas quando alguém se aproxima).',
-    images: [asset('sensorpresenca.png'), asset('sensorpresenca.png')],
-    techs: ['Arduino', 'HC-SR04', 'Buzzer', 'Eletrônica', 'Automação'],
+      ' Descrição calculadora',
+    images: [asset('homecrud.png'), asset('codehome.png'), asset('logincrud.png'), asset('codelogin.png'), asset('cadastrocrud.png'), asset('codecadastro.png'), asset('deletarcrud.png'), asset('codedelete.png'), asset('editarcrud.png'), asset('editar.png')],
+    techs: ['C', 'Linguagem C', 'Linguagem de programação', 'Logica de programação'],
     link: 'https://example.com'
   },
   {

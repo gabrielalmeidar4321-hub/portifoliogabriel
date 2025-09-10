@@ -5,10 +5,10 @@ import { asset } from '../utils/asset'
 
 const projects = [
   {
-    title: 'calculadora em C',
+    title: 'Sistema CRUD - APP Inventor',
     description:
       ' Descrição calculadora',
-    images: [asset('calculadora.png'), asset('calculadora.png')],
+    images: [asset('homecrud.png'), asset('codehome.png'), asset('logincrud.png'), asset('codelogin.png'), asset('cadastrocrud.png'), asset('codecadastro.png'), asset('deletarcrud.png'), asset('codedelete.png'), asset('editarcrud.png'), asset('editar.png')],
     techs: ['C', 'Linguagem C', 'Linguagem de programação', 'Logica de programação'],
     link: 'https://example.com'
   },
