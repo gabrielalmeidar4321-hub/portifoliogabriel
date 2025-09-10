@@ -28,7 +28,7 @@ function Home() {
 
 function App() {
   return (
-    <Router basename="/portfolio">
+    <Router basename="/portfoliogabriel">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<WorkPage />} />

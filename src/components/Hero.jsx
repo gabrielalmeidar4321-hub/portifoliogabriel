@@ -21,10 +21,10 @@ export default function Hero() {
   return (
     <div className="grid md:grid-cols-2 gap-10 items-center pt-10 md:pt-20">
       <div className="space-y-5">
-        <h1 className="text-4xl md:text-6xl font-extrabold">Michelle Marcondes</h1>
+        <h1 className="text-4xl md:text-6xl font-extrabold">GABRIEL RODRIGUES</h1>
         <p className="max-w-xl text-gray-600 dark:text-dark-200">
-          Sou aspirante às Ciências Contábeis, com formação técnica em Análise e Desenvolvimento de Sistemas. 
-          Tenho interesse em contabilidade e busco oportunidades que me permitam aprender, crescer e contribuir para o ambiente corporativo.
+        Sou estudante do ensino médio e já tive experiências profissionais em atendimento ao público, organização financeira e serviços automotivos. 
+        Busco oportunidades como Jovem Aprendiz para adquirir conhecimento e contribuir com dedicação e responsabilidade
         </p>
         <div className="space-y-2 text-sm">
           {/* Localização */}
@@ -77,10 +77,10 @@ export default function Hero() {
       {/* Foto de perfil */}
       <div className="flex justify-center md:justify-end">
         <div className="relative">
-          <img 
-            src={asset('perfil img.jpg')} 
-            alt="Foto" 
-            className="w-72 h-72 object-cover rounded-lg shadow-xl" 
+          <img
+            src={asset('logoalto.jpg')}
+            alt="Foto"
+            className="w-72 h-72 object-cover rounded-lg shadow-xl"
           />
           <div className="absolute -right-6 -bottom-6 w-48 h-6 bg-gray-600/40 rounded"></div>
         </div>

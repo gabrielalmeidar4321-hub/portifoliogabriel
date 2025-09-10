@@ -32,7 +32,7 @@ const projects = [
     title: 'Algoritimo Par Impar em linguagem C',
     description:
       'Descrição algoritimo',
-    images: [asset('mensagem.png'), asset('mensagem.png')],
+    images: [asset('parimpar.png'), asset('parimpar.png')],
     techs: ['C', 'Linguagem C', 'Linguagem de programação', 'Logica de programação'],
     link: 'https://example.com'
   },
