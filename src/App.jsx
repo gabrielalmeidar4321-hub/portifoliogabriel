@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import AboutMe from './components/AboutMe'
-import Skills from './components/Skills'
 import Work from './components/Work'
 import Certificates from './components/Certificates'
 import Contact from './components/Contact'
@@ -18,7 +17,6 @@ function Home() {
       <main className="container-base space-y-28 md:space-y-40">
         <section id="home"><Hero /></section>
         <section id="sobre"><AboutMe /></section>
-        <section id="skills"><Skills /></section>
         <section id="work"><Work /></section>
         <section id="certificates"><Certificates /></section>
         <section id="contact"><Contact /></section>

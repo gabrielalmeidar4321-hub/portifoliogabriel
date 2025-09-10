@@ -2,13 +2,9 @@ import { useState } from 'react'
 import { asset } from '../utils/asset'
 
 const certs = [
-  { src: asset('Certificado Apice.pdf'), title: 'Certificado Pesquisa Cientifica - Apice' },
-  { src: asset('Certificado CSS.pdf'), title: 'Certificado Inovando com CSS - Fundação Bradesco Escola Virtual' },
-  { src: asset('Certificado HTML.pdf'), title: 'Certificado em HTML básico - Fundação Bradesco Escola Virtual' },
-  { src: asset('Certificado JS.pdf'), title: 'Certificado de Java Script - Fundação Bradesco Escola virtual' },
-  { src: asset('certificado OBI 2023.pdf'), title: 'Certificado Olimpiada Brasileira de Informatica 2024' },
-  { src: asset('certificado hora do codigo.pdf'), title: 'Certificado jogo de lógica de programação - Hora do Código' },
-  { src: asset('certificado voluntario.pdf'), title: 'Certificado #Tutoria Voluntaria 2023 - Fundação Bradesco' },
+  { src: asset('certificadoharvard.pdf'), title: 'Certificado CC50 Harvard - Programação Iniciante' },
+  { src: asset('CertificadoGabrielCSS.pdf'), title: 'Certificado Inovando com CSS - Fundação Bradesco Escola Virtual' },
+  { src: asset('horadocodigo.png'), title: 'Certificado jogo de lógica de programação - Hora do Código' },
 ]
 
 export default function Certificates() {
