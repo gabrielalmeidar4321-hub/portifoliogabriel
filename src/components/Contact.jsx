@@ -4,9 +4,9 @@ export default function Contact() {
       <span className="px-3 py-1 rounded-full bg-gray-100 dark:bg-dark-50/20 text-sm">Entre em contato!</span>
       <p className="mt-4 max-w-2xl mx-auto">Meu perfil te interessou? Então entre em contato </p>
       <div className="mt-6 space-y-3">
-        <a href="mailto:reachsagarshah@gmail.com" className="text-lg underline">email@gmail.com</a>
+        <a href="mailto:reachsagarshah@gmail.com" className="text-lg underline">mauaibiel@gmail.com</a>
         <div>
-          <a href="tel:+5519997123081" className="underline">+55 19 111111111</a>
+          <a href="tel:+5519997123081" className="underline">+55 19 97124-1830</a>
         </div>
       </div>
       <div className="flex items-center justify-center gap-4 mt-6">
