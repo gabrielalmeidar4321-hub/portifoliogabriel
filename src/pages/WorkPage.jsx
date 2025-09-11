@@ -5,25 +5,25 @@ import { asset } from '../utils/asset'
 
 const projects = [
   {
-    title: 'Sistema CRUD - APP Inventor',
+    title: 'Calculadora em C - Algoritmo',
     description:
-      ' Descrição calculadora',
-    images: [asset('homecrud.png'), asset('codehome.png'), asset('logincrud.png'), asset('codelogin.png'), asset('cadastrocrud.png'), asset('codecadastro.png'), asset('deletarcrud.png'), asset('codedelete.png'), asset('editarcrud.png'), asset('editar.png')],
+      'Programa que lê dois números e executa soma, subtração, multiplicação e divisão, além de identificar qual número é maior ou se são iguais. Trabalhei com operações aritméticas, estruturas condicionais e formatação de saída para apresentar os resultados de forma clara ao usuário. Essa aplicação consolidou noções de fluxo de controle, boas práticas de código e tratamento de variáveis numéricas.',
+    images: [asset('calculadora.png'), asset('calculadora.png')],
     techs: ['C', 'Linguagem C', 'Linguagem de programação', 'Logica de programação'],
     link: 'https://example.com'
   },
   {
-    title: 'Sensor de Presença com Ultrassônico e Buzzer',
+    title: 'Sistema CRUD - APP Inventor',
     description:
-      'Este circuito utiliza o módulo HC-SR04, um sensor ultrassônico capaz de medir distâncias a partir do tempo de resposta de ondas sonoras, e um buzzer que emite um alerta sonoro quando um objeto é detectado dentro de uma distância configurada no código do Arduino. O microcontrolador processa o tempo de ida e volta do pulso sonoro, calcula a distância e, caso seja menor que o limite estabelecido, aciona o alarme.\n\nAplicação: Muito utilizado em sistemas de segurança (alarmar presença em um ambiente restrito), tecnologia automotiva (sensores de estacionamento), robótica (desvio de obstáculos em robôs móveis) e até mesmo em automação residencial (ativação de luzes ou travas automáticas quando alguém se aproxima).',
-    images: [asset('sensorpresenca.png'), asset('sensorpresenca.png')],
-    techs: ['Arduino', 'HC-SR04', 'Buzzer', 'Eletrônica', 'Automação'],
+      ' Aplicativo Android completo para gerenciar usuários (Create, Read, Update, Delete) com banco de dados local TinyDB. Criei telas de navegação (Home, Edição, Exclusão) no MIT App Inventor, utilizando blocos de programação para validar login, comparar senhas e atualizar dados armazenados. O sistema impede campos vazios e mostra alertas em cada etapa. Esse projeto exigiu design de interface responsiva, lógica de fluxo em blocos, persistência de dados offline e boas práticas de UX, preparando o app para uso real mesmo sem internet.',
+    images: [asset('homecrud.png'), asset('codehome.png'), asset('logincrud.png'), asset('codelogin.png'), asset('cadastrocrud.png'), asset('codecadastro.png'), asset('deletarcrud.png'), asset('codedelete.png'), asset('editarcrud.png'), asset('codeeditar.png')],
+    techs: ['C', 'Linguagem C', 'Linguagem de programação', 'Logica de programação'],
     link: 'https://example.com'
   },
   {
     title: 'Algoritimo de Media em linguagem C',
     description:
-      'explicação ',
+      'Aplicativo de console em C que recebe três notas, calcula a média aritmética e exibe o resultado com uma casa decimal. Durante o desenvolvimento, trabalhei com variáveis de ponto flutuante, entrada de dados via scanf, formatação de saída com printf e tratamento básico de cálculos. Esse exercício reforçou práticas de clareza de código, estrutura sequencial e manipulação de tipos numéricos. ',
     images: [asset('media.png'), asset('media.png')],
     techs: ['C', 'Linguagem C', 'Linguagem de programação', 'Logica de programação'],
     link: 'https://example.com'
@@ -31,7 +31,7 @@ const projects = [
   {
     title: 'Algoritimo Par Impar em linguagem C',
     description:
-      'Descrição algoritimo',
+      'Programa simples, porém essencial para consolidar conceitos de estrutura condicional. O código solicita um número inteiro, verifica se o resto da divisão por 2 é zero e informa se o número é par ou ímpar. O desafio foi criar um fluxo de leitura e escrita limpo e garantir a correta interpretação de variáveis, reforçando uso de operadores aritméticos e lógicos, bem como interação com o usuário.',
     images: [asset('parimpar.png'), asset('parimpar.png')],
     techs: ['C', 'Linguagem C', 'Linguagem de programação', 'Logica de programação'],
     link: 'https://example.com'
@@ -47,7 +47,7 @@ const projects = [
   {
     title: 'Piano com Arduino - Cirucuito e programação',
     description:
-      'Descrição ',
+      'Protótipo interativo que transforma botões físicos em teclas musicais. Cada botão conectado à protoboard envia um sinal digital para o Arduino, que emite diferentes frequências em um buzzer piezoelétrico, correspondendo às notas musicais. Criei o código para mapear cada botão a uma frequência específica, garantindo baixa latência e clareza sonora. Foram necessárias habilidades em programação de tons (função tone/ noTone), debounce de botões, leitura de entradas digitais e design de circuito lógico. ',
     images: [asset('piano.png'), asset('piano.png')],
     techs: ['Arduino', 'C++', 'Jogos', 'Robotica'],
     link: 'https://example.com'
@@ -55,17 +55,17 @@ const projects = [
     {
     title: 'Piano com Arduino - Cirucuito e programação',
     description:
-      'Descrição ',
+      'Protótipo interativo que transforma botões físicos em teclas musicais. Cada botão conectado à protoboard envia um sinal digital para o Arduino, que emite diferentes frequências em um buzzer piezoelétrico, correspondendo às notas musicais. Criei o código para mapear cada botão a uma frequência específica, garantindo baixa latência e clareza sonora. Foram necessárias habilidades em programação de tons (função tone/ noTone), debounce de botões, leitura de entradas digitais e design de circuito lógico',
     images: [asset('semafaro.png'), asset('semafaro.png')],
     techs: ['Arduino', 'C++', 'Jogos', 'Robotica'],
     link: 'https://example.com'
   },
   {
-    title: 'Acender led - Robotica básica',
+    title: 'API clima - APP Inventor',
     description:
-      'Descrição ',
-    images: [asset('acenderled.png'), asset('acenderled.png')],
-    techs: ['Arduino', 'C++', 'Jogos', 'Robotica'],
+      'Aplicativo Android que exibe a temperatura atual de qualquer cidade digitada pelo usuário e mostra sua localização em um mapa interativo. A interface inclui um campo de texto para o nome da cidade, botão de busca, rótulo para exibir a temperatura em graus Celsius e um mapa com marcador dinâmico. \nO funcionamento começa quando o usuário informa o nome da cidade e toca em “saiba a temperatura”. O app monta uma URL para a API do OpenWeatherMap, incluindo o parâmetro units=metric e a chave de acesso. O componente Web envia a requisição e, ao receber a resposta, decodifica o JSON retornado para extrair:\nTemperatura atual (main → temp),\nLatitude e longitude (coord → lat, coord → lon).\nEsses valores alimentam a interface: o rótulo é atualizado com a temperatura e o componente Map centraliza a visualização na coordenada obtida, posicionando automaticamente o marcador vermelho no ponto correspondente à cidade pesquisada.\nO desenvolvimento envolveu:\nConstrução de interface responsiva no App Inventor, com uso de TextBox, Button, Label, Map e Marker.\nConsumo de API REST via componente Web, montagem de URL com blocos join e gerenciamento de chave de API.\nParsing de JSON com blocos de busca em pares para acessar campos aninhados.\nManipulação de mapa interativo, aplicando métodos PanTo e SetLocation para ajustar zoom e marcador.\nTratamento básico de erros, inicialização de variáveis globais (latitude e longitude) e exibição de mensagens amigáveis em caso de cidade inválida ou resposta ausente.\nComo resultado, o aplicativo demonstra habilidades de programação em blocos, integração com serviços web e uso de dados geográficos em tempo real, servindo como exemplo prático de consumo de APIs e apresentação visual de informações climáticas em um ambiente mobile. ',
+    images: [asset('apiclima.png'), asset('codeclima.png')],
+    techs: ['App Inventor', 'mobile', 'API', 'Logica'],
     link: 'https://example.com'
   },
 ]

@@ -4,9 +4,9 @@ import { asset } from '../utils/asset'
 
 const projects = [
   {
-    title: 'calculadora em C',
+    title: 'Calculadora em C - Algoritmo',
     description:
-      ' Descrição calculadora',
+      'Programa que lê dois números e executa soma, subtração, multiplicação e divisão, além de identificar qual número é maior ou se são iguais. Trabalhei com operações aritméticas, estruturas condicionais e formatação de saída para apresentar os resultados de forma clara ao usuário. Essa aplicação consolidou noções de fluxo de controle, boas práticas de código e tratamento de variáveis numéricas.',
     images: [asset('calculadora.png'), asset('calculadora.png')],
     techs: ['C', 'Linguagem C', 'Linguagem de programação', 'Logica de programação'],
     link: 'https://example.com'
@@ -14,15 +14,15 @@ const projects = [
   {
     title: 'Sistema CRUD - APP Inventor',
     description:
-      ' Descrição calculadora',
-    images: [asset('homecrud.png'), asset('codehome.png'), asset('logincrud.png'), asset('codelogin.png'), asset('cadastrocrud.png'), asset('codecadastro.png'), asset('deletarcrud.png'), asset('codedelete.png'), asset('editarcrud.png'), asset('editar.png')],
+      ' Aplicativo Android completo para gerenciar usuários (Create, Read, Update, Delete) com banco de dados local TinyDB. Criei telas de navegação (Home, Edição, Exclusão) no MIT App Inventor, utilizando blocos de programação para validar login, comparar senhas e atualizar dados armazenados. O sistema impede campos vazios e mostra alertas em cada etapa. Esse projeto exigiu design de interface responsiva, lógica de fluxo em blocos, persistência de dados offline e boas práticas de UX, preparando o app para uso real mesmo sem internet.',
+    images: [asset('homecrud.png'), asset('codehome.png'), asset('logincrud.png'), asset('codelogin.png'), asset('cadastrocrud.png'), asset('codecadastro.png'), asset('deletarcrud.png'), asset('codedelete.png'), asset('editarcrud.png'), asset('codeeditar.png')],
     techs: ['C', 'Linguagem C', 'Linguagem de programação', 'Logica de programação'],
     link: 'https://example.com'
   },
   {
     title: 'Algoritimo de Media em linguagem C',
     description:
-      'explicação ',
+      'Aplicativo de console em C que recebe três notas, calcula a média aritmética e exibe o resultado com uma casa decimal. Durante o desenvolvimento, trabalhei com variáveis de ponto flutuante, entrada de dados via scanf, formatação de saída com printf e tratamento básico de cálculos. Esse exercício reforçou práticas de clareza de código, estrutura sequencial e manipulação de tipos numéricos. ',
     images: [asset('media.png'), asset('media.png')],
     techs: ['C', 'Linguagem C', 'Linguagem de programação', 'Logica de programação'],
     link: 'https://example.com'
@@ -30,7 +30,7 @@ const projects = [
   {
     title: 'Algoritimo Par Impar em linguagem C',
     description:
-      'Descrição algoritimo',
+      'Programa simples, porém essencial para consolidar conceitos de estrutura condicional. O código solicita um número inteiro, verifica se o resto da divisão por 2 é zero e informa se o número é par ou ímpar. O desafio foi criar um fluxo de leitura e escrita limpo e garantir a correta interpretação de variáveis, reforçando uso de operadores aritméticos e lógicos, bem como interação com o usuário.',
     images: [asset('mensagem.png'), asset('mensagem.png')],
     techs: ['C', 'Linguagem C', 'Linguagem de programação', 'Logica de programação'],
     link: 'https://example.com'
@@ -46,7 +46,7 @@ const projects = [
   {
     title: 'Piano com Arduino - Cirucuito e programação',
     description:
-      'Descrição ',
+      'Protótipo interativo que transforma botões físicos em teclas musicais. Cada botão conectado à protoboard envia um sinal digital para o Arduino, que emite diferentes frequências em um buzzer piezoelétrico, correspondendo às notas musicais. Criei o código para mapear cada botão a uma frequência específica, garantindo baixa latência e clareza sonora. Foram necessárias habilidades em programação de tons (função tone/ noTone), debounce de botões, leitura de entradas digitais e design de circuito lógico. ',
     images: [asset('piano.png'), asset('piano.png')],
     techs: ['Arduino', 'C++', 'Jogos', 'Robotica'],
     link: 'https://example.com'
@@ -54,7 +54,7 @@ const projects = [
     {
     title: 'Piano com Arduino - Cirucuito e programação',
     description:
-      'Descrição ',
+      'Protótipo interativo que transforma botões físicos em teclas musicais. Cada botão conectado à protoboard envia um sinal digital para o Arduino, que emite diferentes frequências em um buzzer piezoelétrico, correspondendo às notas musicais. Criei o código para mapear cada botão a uma frequência específica, garantindo baixa latência e clareza sonora. Foram necessárias habilidades em programação de tons (função tone/ noTone), debounce de botões, leitura de entradas digitais e design de circuito lógico',
     images: [asset('semafaro.png'), asset('semafaro.png')],
     techs: ['Arduino', 'C++', 'Jogos', 'Robotica'],
     link: 'https://example.com'
