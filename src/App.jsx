@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import AboutMe from './components/AboutMe'
@@ -26,15 +26,11 @@ function Home() {
   )
 }
 
-function App() {
+export default function App() {
   return (
-    <Router basename="/portfoliogabriel">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/work" element={<WorkPage />} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/work" element={<WorkPage />} />
+    </Routes>
   )
 }
-
-export default App
