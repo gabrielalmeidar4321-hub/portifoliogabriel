@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gabrielalmeidar4321.github.io/portfoliogabriel",
+  "homepage": "https://gabrielalmeidar4321.github.io/portifoliogabriel",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
